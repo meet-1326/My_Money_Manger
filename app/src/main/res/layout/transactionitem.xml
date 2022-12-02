@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:paddingLeft="3dp"
+        android:text="2022-08-09"
+        android:textColor="#9F9F9F"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvcategorie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:text=""
+        android:textColor="#9F9F9F"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvamount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="1500"
+        android:paddingRight="3dp"
+        android:textColor="@color/red"
+        android:textAlignment="textEnd"
+        android:textSize="16dp" />
+
+</LinearLayout>
